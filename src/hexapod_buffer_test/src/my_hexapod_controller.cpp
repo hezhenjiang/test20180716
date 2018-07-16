@@ -6,13 +6,16 @@
 /**
  * @brief ...
  * 
- * @param argc ...
+ * @param argc 2222...
  * @param argv ...
  * @return int
  */
 int main (int argc, char **argv)
 {
   ros::init( argc, argv, "my_hexapod_controller" );
+  int test1 = 1000;
+  int test2 = 2;
+  int test = 2;
   Control control;
   control.gait = Gait();
   control.ik = IK();
