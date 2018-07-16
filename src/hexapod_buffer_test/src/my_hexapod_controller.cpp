@@ -3,6 +3,13 @@
 #include "ik.h"
 #include "control.h"
 
+/**
+ * @brief ...
+ * 
+ * @param argc ...
+ * @param argv ...
+ * @return int
+ */
 int main (int argc, char **argv)
 {
   ros::init( argc, argv, "my_hexapod_controller" );
